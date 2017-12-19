@@ -1,0 +1,27 @@
+.nav {
+    margin: 20px;
+}
+
+input[type="button"] {
+     background: none;
+     padding: 10px;
+     border-radius: 4px;
+     border: solid 1px #ccc;
+     cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background: rgba(137, 165, 222, 0.25);
+}
+
+#content {
+    margin: 15px;
+    display: none;
+}
+
+#content input, #content select, #content textarea  {
+    padding: 8px;
+    margin: 8px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
